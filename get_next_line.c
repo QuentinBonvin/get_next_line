@@ -6,25 +6,11 @@
 /*   By: qbonvin <qbonvin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/21 16:31:09 by qbonvin           #+#    #+#             */
-/*   Updated: 2022/02/07 17:01:40 by qbonvin          ###   ########.fr       */
+/*   Updated: 2022/02/09 09:19:32 by qbonvin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
-/*int	main(void)
-{
-	int	fd = open("test.txt", O_RDONLY);
-	char	*retour = get_next_line(fd);
-	int	i = 0;
-	while (retour != NULL)
-	{
-		//printf("Retour fonction = %s", retour);
-		//write(1, "/", 1);
-		i++;
-		retour = get_next_line(fd);
-	}
-}*/
 
 char	*get_next_line(int fd)
 {
